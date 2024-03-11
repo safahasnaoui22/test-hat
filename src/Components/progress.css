@@ -1,0 +1,112 @@
+
+.step-wizard-item {
+    padding: 3px ; 
+margin: 0;
+    flex-grow: 1;
+    width: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    position: relative;
+}
+
+.step-wizard-item + .step-wizard-item:before {
+    content: "";
+    position: absolute;
+    left: 50%; 
+    top: 20px;
+    background: gray;
+    width: 2px; 
+    height: 90%; 
+    transform: translateY(-100%); 
+    z-index: -10;
+}
+
+.progress-count {
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+   
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+
+}
+
+.progress-count:after {
+    content: "";
+    height: 20px;
+    width: 20px;
+    background: gray;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -10;
+}
+
+.progress-count:before {
+    content: "";
+    height: 5px;
+    width: 10px;
+   
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%) rotate(-45deg);
+    transform-origin: center center;
+}
+.first-item {
+    color: blue;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 90px;
+   width: 100px;
+display: flex;
+   
+
+}
+.progress-label {
+    width: 100px;
+    font-size: 14px;
+    font-weight: 600;
+display: flex;
+    margin-left: 90px;
+   
+    color: gray;
+}
+.imgpro{
+    width: 19px;
+    height: 19px;
+}
+
+.current-item .progress-count:before,
+.current-item ~ .step-wizard-item .progress-count:before {
+    display: none;
+}
+
+.current-item ~ .step-wizard-item .progress-count:after {
+    height: 20px;
+    width: 20px;
+}
+
+.current-item ~ .step-wizard-item .progress-label {
+    opacity: 0.5;
+}
+
+.current-item .progress-count:after {
+  
+    background: #fff;
+    border: 2px solid gray;
+}
+
+.current-item .progress-count {
+    color: gray;
+}

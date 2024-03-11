@@ -1,0 +1,141 @@
+
+.left{
+    display: flex;
+   
+    margin-top: 90;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+.Flow-C{
+    margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+    font-size: 18px;
+   height: 20px;
+   width: 200px;
+    background-color: rgb(22, 2, 122);
+    border-radius: 25px;
+    color: white;
+
+}
+
+
+
+.content-wrapper {
+    display: flex;
+   
+    margin-right: 20px;
+  }
+  .pyFun{
+    
+    width: 400px;
+    color: rgb(22, 2, 122);
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+img{
+    margin-top: 10px;
+   
+    padding: 0;
+width: 30px;
+height: 30px;
+    border-radius: 50%;
+}
+.PyN{
+    width: 400px;
+   
+    height: 40px;
+    display: flex;
+   margin-left: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+h6{
+  
+   width: 200px;
+  color: gray;
+    font-size: 18px;
+}
+
+  
+  .progress-container {
+    height: 5px;
+    width: 100vh;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+  }
+  
+  .progress-bar {
+    border-radius: 25px;
+    height: 100%;
+  margin: 0;
+    background-color: rgb(22, 2, 122);
+  }
+  .tit{
+    margin-left: 180px;
+   
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .firstTitle{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  height: 40px;
+  gap: 5;
+  color: white;
+  background-color: rgb(22, 2, 122);
+    border-radius: 0 25px 25px 0;
+    
+  }
+  .secTitle{
+    background-color: rgb(197, 192, 192);
+    color: black;
+  }
+  .secH{
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 20px;
+
+  }
+  span{
+    justify-content: end;
+   margin-top: 10px;
+   font-weight: bold;
+   font-size: 12px;
+   margin-right: 10px;
+  }
+  .h4Tit{
+    margin-top: 10px;
+    font-size: 23px;
+  }
+  .icon{
+   
+    margin-top: 4px;
+  }
+ 
+  
+  .last{
+    margin-top: 50px;
+   margin-left: 170px;
+   
+  }
+  
+  .line {
+    margin-top: -20px;
+    width: 50%; 
+    color: rgb(201, 194, 194);
+  }
+  .title{
+    font-size: 24px;
+  }
+  

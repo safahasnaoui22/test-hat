@@ -1,0 +1,52 @@
+.section-right{
+    margin-top: 80px;
+    margin-left: 20px;
+    gap: 5;
+    color: rgb(22, 2, 122);
+}
+.pythonF{
+    color: rgb(236, 43, 91);
+    font-weight: bold;
+    font-size: 20px;
+}
+.PyFun{
+    display: flex;
+    width: 250px;
+    height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.third-part{
+    color: gray;
+    opacity: 0.7;
+    
+}
+.right-container {
+    width: 400px;
+    height: 600px;  
+    overflow-y: scroll;
+  }
+  .menu{
+    display: flex;
+    justify-content: center;
+   width: 450px;
+  }
+  .menu span{
+    color: gray;
+    margin-top: 20px;
+
+  }
+  .lastMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 350px;
+  }
+  .spnLst{
+    margin-left: 25px;
+  }
+  .imgMenu{
+    height: 20px;
+    width: 20px;
+  }
